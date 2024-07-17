@@ -1,0 +1,11 @@
+﻿<Window x:Class="ProjektZakharB.DeleteUserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DeleteUserWindow" Height="300" Width="400">
+    <Grid>
+        <TextBlock Text="ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,0,0,0"/>
+        <TextBox x:Name="UserIdTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,17,0,0" Width="200" >
+        </TextBox>
+        <Button Content="Удалить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,40,0,0" Width="100" Click="Delete_Click"/>
+    </Grid>
+</Window>
