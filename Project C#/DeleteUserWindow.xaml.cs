@@ -24,17 +24,17 @@ namespace ProjektZakharB
                 {
                     _context.Users.Remove(user);
                     await _context.SaveChangesAsync();
-                    MessageBox.Show("Пользователь удален успешно!");
+                    MessageBox.Show("User deleted successfully!");
                     Close();
                 }
                 else
                 {
-                    MessageBox.Show("Пользователь с указанным ID не найден.");
+                    MessageBox.Show("The user with the specified ID was not found.");
                 }
             }
             else
             {
-                MessageBox.Show("Введите корректный ID пользователя.");
+                MessageBox.Show("Enter the correct user ID.");
             }
         }
 

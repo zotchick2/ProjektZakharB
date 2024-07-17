@@ -8,13 +8,11 @@ namespace ProjektZakharB
     {
         private readonly ApplicationDbContext _context;
 
-        // Конструктор по умолчанию для XAML
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        // Основной конструктор для Dependency Injection
         public MainWindow(ApplicationDbContext context) : this()
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));

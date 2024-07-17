@@ -26,14 +26,12 @@ namespace ProjektZakharB
                     services.AddDbContext<ApplicationDbContext>(options =>
                             options.UseSqlite(context.Configuration.GetConnectionString("DefaultConnection")));
 
-                    // Регистрация MainWindow с фабричным методом
                     services.AddSingleton<MainWindow>(provider =>
                     {
                         var dbContext = provider.GetRequiredService<ApplicationDbContext>();
                         return new MainWindow(dbContext);
                     });
 
-                    // Регистрация AddUserWindow и ViewUsersWindow
                     services.AddTransient<AddUserWindow>(provider =>
                     {
                         var dbContext = provider.GetRequiredService<ApplicationDbContext>();

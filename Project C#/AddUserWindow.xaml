@@ -15,6 +15,6 @@
         <TextBlock Text="Password:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,150,0,0"/>
         <PasswordBox x:Name="PasswordBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,170,0,0" Width="200"/>
 
-        <Button Content="Сохранить" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,0,0" Width="100" Click="Save_Click"/>
+        <Button Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,210,0,0" Width="100" Click="Save_Click"/>
     </Grid>
 </Window>

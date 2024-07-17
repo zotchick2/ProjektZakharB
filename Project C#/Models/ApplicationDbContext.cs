@@ -19,7 +19,7 @@ namespace ProjektZakharB.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Конфигурации и ограничения могут быть добавлены здесь
+            
         }
     }
 }

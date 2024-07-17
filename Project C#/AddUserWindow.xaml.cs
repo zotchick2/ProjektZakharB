@@ -21,13 +21,13 @@ namespace ProjektZakharB
                 FirstName = FirstNameTextBox.Text,
                 LastName = LastNameTextBox.Text,
                 Email = EmailTextBox.Text,
-                PasswordHash = PasswordBox.Password // Не забудьте использовать хеширование паролей на практике
+                PasswordHash = PasswordBox.Password
             };
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            MessageBox.Show("Пользователь добавлен успешно!");
+            MessageBox.Show("User added successfully!");
             Close();
         }
     }

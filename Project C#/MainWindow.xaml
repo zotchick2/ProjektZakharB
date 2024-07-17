@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Добавить пользователя" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Click="AddUser_Click" Margin="55,48,0,0"/>
-        <Button Content="Просмотр пользователей" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="313,48,0,0" Width="150" Click="ViewUsers_Click"/>
-        <Button Content="Удалить пользователя" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,100,0,0" Width="150" Click="DeleteUser_Click"/>
+        <Button Content="Add user" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Click="AddUser_Click" Margin="55,48,0,0"/>
+        <Button Content="View users" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="313,48,0,0" Width="150" Click="ViewUsers_Click"/>
+        <Button Content="Delete user" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,100,0,0" Width="150" Click="DeleteUser_Click"/>
     </Grid>
 </Window>
